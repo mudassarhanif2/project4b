@@ -35,4 +35,4 @@ jobs:
     - name: install Surge
       run: npm install --global surge
     - name: Deploy to Surge
-      run: surge ./build http://mudassar.project4b.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      run: surge ./build http://mudassar_project_4b.surge.sh --token ${{ secrets.SURGE_TOKEN }}
