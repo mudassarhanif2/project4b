@@ -10,7 +10,7 @@ export const Video = () => {
                     <source src={video} type='video/mp4' />
                 </video>
             </div>
-            <div className='button'><a href="">Let's make it happen</a></div>
+            <div className='button'><button href="">Let's make it happen</button></div>
         </div>
     )
 }
