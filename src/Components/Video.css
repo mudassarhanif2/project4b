@@ -2,9 +2,7 @@
     position: relative;
     display: flex;
 }
-.video {
-    position: absolute;
-}
+
 .button {
     position: absolute;
     border: 2px solid transparent;
@@ -34,11 +32,12 @@
 .button:hover {
     background-color: lightgreen;
 }
-.main a {
+.main button {
     color: white;
     justify-content: center;
+    background-color: transparent;
 }
-.main a:hover{
+.main button:hover{
     background-color: lightgreen;
 }
 #myVideo {
