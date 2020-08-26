@@ -1,0 +1,22 @@
+
+.container {
+    position: sticky;
+}
+.container .links {
+    display: inline-flex;
+    list-style-type: none;
+    flex-direction: row;
+    float: right;
+}
+.img {
+    height: 44px;
+}
+a {
+    padding: 0.5rem 2rem;
+    align-self: center;
+    text-decoration: none;
+}
+a:hover {
+    background-color: gainsboro;
+    color: red;
+}

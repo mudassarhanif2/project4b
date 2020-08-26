@@ -1,0 +1,15 @@
+.container .msg, h1{
+    margin-top: -2px;
+}
+.hi {
+    color: lightgreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 0px;
+    font-size: medium;
+}
+.msg  {
+    margin-left: 4rem;
+}
+.typer {
+    margin-left: 4rem;
+}

@@ -1,0 +1,48 @@
+.main {
+    position: relative;
+    display: flex;
+}
+.video {
+    position: absolute;
+}
+.button {
+    position: absolute;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    padding: 3px 3px;
+    max-height: 4em;
+    max-width: 14em;
+    text-align: center;
+    margin-left: 5%;
+}
+@media only screen and (max-width: 600px){
+    .button {
+        position: absolute;
+        max-height: 5em;
+        max-width: 9em;
+        font-size: x-small;
+        padding: 0px 0px;
+        background-color: rgb(121, 42, 42);
+        margin-left: 1%;
+    }
+}
+
+
+
+.button:hover {
+    background-color: lightgreen;
+}
+.main a {
+    color: white;
+    justify-content: center;
+}
+.main a:hover{
+    background-color: lightgreen;
+}
+#myVideo {
+    width: calc(100% + 1px);
+    height: auto;
+    margin-top: -23px;
+}
