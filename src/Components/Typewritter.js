@@ -13,9 +13,9 @@ export const Typewritter = () => {
                 <h1>
                 <Typewriter
                     options={{
-                        strings: ['Grow your bussines.', 'Optimize conversions.',
+                        strings: ['Grow your business.', 'Optimize conversions.',
                         'Outrank the competition.', 'Create badass content.', 'Generate more leads.',
-                        'Look sexy online.'],
+                        'Close more deals.'],
                         autoStart: true,
                         loop: true,
                         delay: 100,
