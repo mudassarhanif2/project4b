@@ -6,7 +6,7 @@ export const Video = () => {
     return (
         <div className='main'>
             <div className='video'>
-                <video id='myVideo' autoPlay loop>
+                <video id='myVideo' autoPlay loop height='100%' width='100%'>
                     <source src={video} type='video/mp4' />
                 </video>
             </div>

@@ -40,8 +40,3 @@
 .main button:hover{
     background-color: lightgreen;
 }
-#myVideo {
-    width: calc(100% + 1px);
-    height: auto;
-    margin-top: -23px;
-}
